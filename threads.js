@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    for(let i = 0; i < 1; i ++) {
+    for(let i = 0; i < 6; i ++) {
         $("body").append(`<div class="fold"><div class=threads></div><div class=threads></div></div>`);
     }
     for(let i = 0; i < 16; i ++) {
